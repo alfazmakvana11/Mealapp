@@ -1,0 +1,113 @@
+/* Basic reset and styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+}
+
+/* Search container styling */
+#search-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Search input styling */
+#search-input {
+    padding: 0.5rem;
+    width: 80%;
+    font-size: 1rem;
+}
+
+/* Styling for displaying search results */
+#search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styling for individual meal result */
+.meal {
+    border: 1px solid #ddd;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for meal images */
+.meal img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for favourite button */
+.favourite-button {
+    background-color: #f2c94c;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Styling for favourite meals container */
+#favourites-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Styling for favourite meals list */
+#favourites-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styling for meal details container */
+#meal-details {
+    padding: 2rem;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Styling for meal detail headings */
+#meal-details h2 {
+    margin-top: 0;
+}
+
+/* Styling for meal detail images */
+#meal-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Styling for meal detail subheadings */
+#meal-details h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* Styling for ingredient list */
+#meal-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling for individual ingredient in list */
+#meal-details ul li {
+    margin-bottom: 0.25rem;
+}
